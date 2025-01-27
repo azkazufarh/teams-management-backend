@@ -14,6 +14,7 @@ const app = module.exports = loopback();
 
 app.start = function() {
   // start the web server
+
   return app.listen(function() {
     app.emit('started');
     const baseUrl = app.get('url').replace(/\/$/, '');

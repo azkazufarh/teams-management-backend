@@ -1,7 +1,7 @@
 {
   "restApiRoot": "/api",
-  "host": "0.0.0.0",
-  "port": 3000,
+  "host": "https://teams-management-backend-ylb9.onrender.com",
+  "port": 18012,
   "remoting": {
     "context": false,
     "rest": {
